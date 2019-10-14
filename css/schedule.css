@@ -1,0 +1,18 @@
+#exTab1 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+    border:1px solid red;
+  }
+  
+  /* remove border radius for the tab */
+  
+  #exTab1 .nav-pills > li > a {
+    border-radius: 0;
+    border:2px solid yellow;
+    margin-bottom:70px;
+    margin-left:2em;
+  }
+  
+  
+  

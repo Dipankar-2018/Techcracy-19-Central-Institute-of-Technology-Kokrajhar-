@@ -1,0 +1,30 @@
+body{
+  background-image: url("../img/tech.jpg");
+  width: 100%; 
+  
+} 
+ .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 580px;
+    background-image:  rgb(127,255,212,.1);
+    
+  }
+
+.h5{
+    text-align: center;
+}
+
+.team{
+    color: white;
+    text-align: center;
+}
+
+
+
