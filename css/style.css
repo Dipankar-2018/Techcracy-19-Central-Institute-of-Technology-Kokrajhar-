@@ -8,7 +8,11 @@ body{
     background-color:#12182e;    
     /* background-image: linear-gradient(black, darkblue); */
  
-    }     
+    }   
+.green{
+  color: greenyellow; 
+    
+}
  
 .type{
     transform: translateY(-50%);

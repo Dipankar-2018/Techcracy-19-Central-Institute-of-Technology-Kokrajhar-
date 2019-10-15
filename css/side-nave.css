@@ -12,8 +12,7 @@ body{
     position: absolute;
     width: 300px;
     margin-top: 430px;
-    height: 57em;     
-    /* background-image: linear-gradient(black); */   	
+    height: 57em;        	
     background-color:  rgba(0, 0, 0, 0.8);  
     right: -300px;    
     transition: 0.800s ease;
