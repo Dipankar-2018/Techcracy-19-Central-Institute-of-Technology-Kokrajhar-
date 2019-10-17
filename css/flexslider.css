@@ -1,14 +1,3 @@
-/*
- * jQuery FlexSlider v2.4.0
- * http://www.woothemes.com/flexslider/
- *
- * Copyright 2012 WooThemes
- * Free to use under the GPLv2 and later license.
- * http://www.gnu.org/licenses/gpl-2.0.html
- *
- * Contributing author: Tyler Smith (@mbmufffin)
- * 
- */
 
 /* ====================================================================================================================
  * FONT-FACE
@@ -118,7 +107,7 @@ html[xmlns] .flexslider .slides {
 }
 
 .flex-viewport {
-  max-height: 450px;
+   max-height: 450px;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
@@ -215,13 +204,13 @@ html[xmlns] .flexslider .slides {
 }
 
 .flex-control-thumbs {
-  margin: 5px 0 0;
+  margin: 10px 9px 0;
   position: static;
   overflow: hidden;
 }
 
 .flex-control-thumbs li {
-  width: 31%;
+  width: 21%;
   float: left;
 }
 
@@ -230,7 +219,7 @@ html[xmlns] .flexslider .slides {
 }
 
 .flex-control-thumbs li:nth-child(4) {
-  margin: 0;
+  margin: 0 12px;
 }
 
 .flex-control-thumbs img {
@@ -282,25 +271,25 @@ html[xmlns] .flexslider .slides {
     margin: 0 8px;
   }
   .flex-control-thumbs li {
-    width: 32.5%;
+    width: 20.5%;
   }
 }
 
 @media(max-width:736px) {
   .flex-control-thumbs li {
-    width: 32.2%;
+    width: 20.2%;
   }
 }
 
 @media(max-width:480px) {
   .flex-control-thumbs li {
-    width: 32%;
+    width: 20%;
   }
 }
 
 @media(max-width:414px) {
   .flex-control-thumbs li {
-    width: 31.8%;
+    width: 20.8%;
   }
 }
 
