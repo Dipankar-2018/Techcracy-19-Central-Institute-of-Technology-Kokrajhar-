@@ -1,10 +1,9 @@
 body{
-    background-image: url("../img/cul.jpg");
+    background-image: url("../img/cull.jpg");
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
+    background-color: black;
+
 }
    .swiper-container {
       width: 100%;
