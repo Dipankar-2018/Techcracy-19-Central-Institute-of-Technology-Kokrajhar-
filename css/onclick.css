@@ -1,0 +1,287 @@
+body {font-family: 'Saira Stencil One', cursive;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  color: white;
+
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: black;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid white;
+  width: 100%;
+  font-size: 12px;
+}
+/* The Close Button */
+.close{
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: 80%;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+/* second button */
+.modal_two{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modaltwo-content {
+    text-align: left;
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid white;
+    width: 100%;
+    font-size: 12px;
+}
+.close1 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 80%;
+}
+
+.close1:hover,
+.close1:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* third button */
+
+.modal_three{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modalthree-content {
+    text-align: left;
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid white;
+    width: 100%;
+    font-size: 12px;
+}
+.close2 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 80%;
+}
+
+.close2:hover,
+.close2:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 4th button */
+
+.modal_four{  
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  text-align: left;
+}
+/* Modal Content */
+.modalfour-content {
+    text-align: left;
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid white;
+    width: 100%;
+    font-size: 12px;
+}
+.close3 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 80%;
+
+ 
+}
+
+.close3:hover,
+.close3:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer; 
+}
+
+/* 5th button */
+
+.modal_five{  
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  text-align: left;
+}
+/* Modal Content */
+.modalfive-content {
+  background-color: black;
+  margin: auto;
+  padding: 70px;
+  border: 1px solid white;
+  width: 80%;
+  font-size: 30px;
+}
+.close4 {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: 97%;
+
+ 
+}
+
+.close4:hover,
+.close4:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer; 
+}
+
+/* 6th button */
+
+.modal_six{  
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  text-align: left;
+}
+/* Modal Content */
+.modalsix-content {
+  background-color: black;
+  margin: auto;
+  padding: 70px;
+  border: 1px solid white;
+  width: 80%;
+  font-size: 30px;
+}
+.close5 {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: 97%;
+
+
+ 
+}
+
+.close5:hover,
+.close5:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer; 
+}
+
+
+/* 7th button */
+
+.modal_seven{  
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  text-align: left;
+}
+/* Modal Content */
+.modalseven-content {
+  background-color: black;
+  margin: auto;
+  padding: 70px;
+  border: 1px solid white;
+  width: 80%;
+  font-size: 30px;
+}
+.close6 {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: 97%;
+
+ 
+}
+
+.close6:hover,
+.close6:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer; 
+}

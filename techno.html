@@ -17,7 +17,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css">    
-    <link rel="stylesheet" href="css/swiper.css">    
+    <link rel="stylesheet" href="css/swiper.css"> 
+    <link rel="stylesheet" href="css/onclick.css">   
   </head>
   <body>
         
@@ -84,60 +85,82 @@
         <div class="card">
           <img src="img/techno/01.jpg" class="card-img-top" alt="..."> 
           <div class="card-body newfont">        
-            <h5 class="card-title h5">Robo Warfare</h5>
-            <h6>GAMEPLAY:</h6>
-             <ul>
-               <li>Two teams will engage in a battle at a time. Each team will consist
-                of one bot.</li>
-                <li>The team to score maximum points during the entire duration of
-                  the match or the team that knocks out the opponent wins the
-                  battle.</li>
-                  <li>Members from different Colleges or institutes can form team
-                    showing their valid id cards.</li>
-             </ul>
-              <button class="btn btn-warning btn-block h5 newfont">Rules</button>
-           
-
-            <!-- <ul>
-              <li>Rajiv Kr Brahma</li>
-              <i class="fas fa-phone-square-alt"> 7086276353</i><br> 
-              <i class="fas fa-envelope-open-text"> reyzinbrahma1997@gmail.com</i>              
-               <li>Biswajit Kr Singh </li> 
-               <i class="fas fa-phone-square-alt"> 8486157338</i><br> 
-               <li>Bhargav Nath </li> 
-               <i class="fas fa-phone-square-alt"> 8133860749</i><br> 
-
-            </ul>     -->
-          </div>
-          
+            <h5 class="card-title h5">Robo Warfare</h5>         
+             <button type="button"  class="btn btn-warning btn-block" id="myBtn">Rules</button>
+             <div id="myModal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+              <span class="close">&times;</span>
+              <h3 style="color: wheat;">General Rules:</h3>
+                 <ul>
+                   <li>Each team can have a maximum of 4 members.</li>
+                    <li>Each team must bring their own tools.</li>
+                    <li>The Robot must weigh 10kg. </li>
+                    <li>The dimension of the Robot should be 40 X 35 cm.</li>
+                    <li>Ampflow, E-bike motors are not allowed.</li>
+                    <li>The Robot can be Remote controlled or manual(Wire controlled). </li>
+                    <li>AC power supply will only be provided.</li>
+                    <li>Maximum power supply should be 12V.</li>
+                    <li>In case of discrepancy, the final decision rests in the hands of the coordinators.</li>
+                    <li>Deduction of  points will be made for per cm increase in the dimensions.</li>
+                 </ul>
+                  <h3 style="color: wheat;">GAMEPLAY:</h3>		
+                     <ul>
+                       <li>Two teams will engage in a battle at a time. Each team will consist of one bot. </li>
+                       <li>The team to score maximum points during the entire duration of the match or the team that knocks out the opponent wins the battle. </li>
+                       <li>Members from different Colleges or institutes can form team showing their valid id cards. </li>                   
+                     </ul>
+                     <h3 style="color: wheat;">Coordinators:</h3>
+                     <ul>
+                        <li>Rajiv Kr Brahma</li>
+                        <i class="fas fa-phone-square-alt"> 7086276353</i><br> 
+                        <i class="fas fa-envelope-open-text"> reyzinbrahma1997@gmail.com</i>              
+                        <li>Biswajit Kr Singh </li> 
+                        <i class="fas fa-phone-square-alt"> 8486157338</i><br> 
+                        <li>Bhargav Nath </li> 
+                        <i class="fas fa-phone-square-alt"> 8133860749</i><br> 
+                    </ul>                      
+              </div>								
+            </div>           
+          </div>         
         </div>
       </div>
       <div class="swiper-slide">
         <div class="card">
           <img src="img/techno/03.jpg" class="card-img-top" alt="...">
           <div class="card-body newfont">
-            <h5 class="card-title h5 newfont">Line Follower</h5>
-            <!-- <h6>Rules:</h6>
-              <ul>
-                <li>•	Line Followers must be self-contained, and not externally operated by wire or by remote radio control during the race.</li>
-                <li>•	Except for the battery pack, the handler shall not make any addition, removal, replacement or change to the hardware of a Line Follower during a contest. It is however permissible to make minor repairs</li>
-                <li>•	A Line Follower shall not exceed 28 cm in overall length, 22 cm in overall width and 20 cm in overall height</li>
-                <li>•	Before commencement of normal racing, each racing team can test the racing environment on site</li>
-                <li>•	Within the given performance time, the handler is allowed to replace batteries and/or upload new program parameters to the Line Follower.</li>
-                <li>•	External power supply is not allowed i.e. the power supply should be on board and should not be more than 12 volt. </li>
-              </ul> -->
-            <h6>To Know more contact:</h6>
-            <ul>
-              <li>Rajiv Kr Brahma</li>
-              <i class="fas fa-phone-square-alt"> 7086276353</i><br>  
-              <i class="fas fa-envelope-open-text"> reyzinbrahma1997@gmail.com</i>                  
-               <li>Biswajit Kr Singh </li> 
-               <i class="fas fa-phone-square-alt"> 8486157338</i><br> 
-               <li>Bhargav Nath </li> 
-               <i class="fas fa-phone-square-alt"> 8133860749</i><br> 
-            </ul>  
+            <h5 class="card-title h5 newfont">Line Follower</h5>       
             <div class="text-center">
-              <button class="btn btn-warning btn-block">Rules</button>
+              <button type="button"  class="btn btn-warning btn-block" id="myBtnone">Rules</button>
+							
+              <!-- The Modal -->
+               <div id="myModal_two" class="modal_two">
+                 <!-- Modal content -->
+                 
+                 <div class="modaltwo-content">
+                  <span class="close1">&times;</span>
+                  <h3 style="color: wheat;">General Rules:</h3>
+                    <ul>
+                      <li>Line Followers must be self-contained, and not externally operated by wire or by remote radio control during the race.</li>
+                      <li>Except for the battery pack, the handler shall not make any addition, removal, replacement or change to the hardware of a Line Follower during a contest. It is however permissible to make minor repairs</li>
+                      <li>A Line Follower shall not exceed 28 cm in overall length, 22 cm in overall width and 20 cm in overall height</li>
+                      <li>Before commencement of normal racing, each racing team can test the racing environment on site</li>
+                      <li>Within the given performance time, the handler is allowed to replace batteries and/or upload new program parameters to the Line Follower</li>
+                      <li>External power supply is not allowed i.e. the power supply should be on board and should not be more than 12 volt. </li>
+                      </ul>
+                      <h3 style="color: wheat;">Coordinators:</h3>
+                      <ul>
+                         <li>Rajiv Kr Brahma</li>
+                         <i class="fas fa-phone-square-alt"> 7086276353</i><br> 
+                         <i class="fas fa-envelope-open-text"> reyzinbrahma1997@gmail.com</i>              
+                         <li>Biswajit Kr Singh </li> 
+                         <i class="fas fa-phone-square-alt"> 8486157338</i><br> 
+                         <li>Bhargav Nath </li> 
+                         <i class="fas fa-phone-square-alt"> 8133860749</i><br> 
+ 
+                     </ul>                      
+                   </div>								
+               </div>
             </div>  
           </div>
           
@@ -147,18 +170,41 @@
         <div class="card">
           <img src="img/techno/06.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title h5 newfont">Robo Soccer</h5>
-            <h6>To Know more contact:</h6>
-            <ul>
-              <li>Rajiv Kr Brahma</li>
-              <i class="fas fa-phone-square-alt"> 7086276353</i><br>  
-              <i class="fas fa-envelope-open-text"> reyzinbrahma1997@gmail.com</i>                  
-               <li>Biswajit Kr Singh </li> 
-               <i class="fas fa-phone-square-alt"> 8486157338</i><br> 
-               <li>Bhargav Nath </li> 
-               <i class="fas fa-phone-square-alt"> 8133860749</i><br>      
-            </ul>    
-            <button class="btn btn-warning btn-block">Rules</button>
+            <h5 class="card-title h5 newfont">Robo Soccer</h5>       
+            <div class="">
+              <button type="button"  class="btn btn-warning btn-block" id="mBt">Rules</button>
+							
+              <!-- The Modal -->
+              <div id="myModal_three" class="modal_three">
+                <!-- Modal content -->
+                <div class="modalthree-content">
+                <span class="close2">&times;</span>
+                  <h3 style="color: wheat;">General Rules:</h3>
+                    <ul>
+                      <li>Each team can have a maximum of 4 members.</li>
+                      <li>Weight of the bot should be maximum 3 Kg.</li>
+                      <li>Dimension of the bot should be 30 cm x25 cm.</li>
+                      <li>Maximum power supply should be 12volt </li>
+                      <li>Only AC power supply will be provided </li>
+                      <li>There will be penalty for each fouls made. </li>
+                      <li>Deduction of points will be made for per cm increase in the dimensions. </li>
+                      <li>The organizers fully reserve the rights to disqualify any team that violates the rules and regulations of the competition.</li>
+                      <li>Game rules regarding points will be declared before starting of the event. </li>
+                    </ul>
+                      <h3 style="color: wheat;">Coordinators:</h3>
+                      <ul>
+                         <li>Rajiv Kr Brahma</li>
+                         <i class="fas fa-phone-square-alt"> 7086276353</i><br> 
+                         <i class="fas fa-envelope-open-text"> reyzinbrahma1997@gmail.com</i>              
+                         <li>Biswajit Kr Singh </li> 
+                         <i class="fas fa-phone-square-alt"> 8486157338</i><br> 
+                         <li>Bhargav Nath </li> 
+                         <i class="fas fa-phone-square-alt"> 8133860749</i><br> 
+ 
+                     </ul>                      
+                   </div>								
+               </div>
+            </div>  
           </div>
           
         </div>
@@ -168,7 +214,7 @@
           <img src="img/techno/05.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title h5 newfont">Code Star</h5>
-            <h6>To Know more contact:</h6>
+            <!-- <h6>To Know more contact:</h6>
             <ul>
               <li>Rajiv Kr Brahma</li>
               <i class="fas fa-phone-square-alt"> 7086276353</i><br>  
@@ -178,7 +224,7 @@
                <li>Bhargav Nath </li> 
                <i class="fas fa-phone-square-alt"> 8133860749</i><br> 
 
-            </ul>    
+            </ul>     -->
           </div>         
         </div>
       </div>     
@@ -187,7 +233,7 @@
           <img src="img/techno/07.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title h5 newfont">Type Accelerator</h5>
-            <h6>To Know more contact:</h6>
+            <!-- <h6>To Know more contact:</h6>
             <ul>
               <li>Rajiv Kr Brahma</li>
               <i class="fas fa-phone-square-alt"> 7086276353</i><br>    
@@ -197,7 +243,7 @@
                <li>Bhargav Nath </li> 
                <i class="fas fa-phone-square-alt"> 8133860749</i><br> 
 
-            </ul>    
+            </ul>     -->
           </div>         
         </div>
       </div>     
@@ -206,22 +252,42 @@
           <img src="img/techno/09.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title h5 newfont">Light-O-Mania</h5>
-            <h5>COMPONENTS:</h5>
-            <p>IC 555, TRANSISTOR, RESISTOR, CAPACITOR, COUNTER IC, 9V Battery, LED etc.</p>
-            <h6>To Know more contact:</h6>
-            <ul>
-              <li>Rajiv Kr Brahma</li>
-              <i class="fas fa-phone-square-alt"> 7086276353</i><br>    
-              <i class="fas fa-envelope-open-text"> reyzinbrahma1997@gmail.com</i>                
-               <li>Biswajit Kr Singh </li> 
-               <i class="fas fa-phone-square-alt"> 8486157338</i><br> 
-               <li>Bhargav Nath </li> 
-               <i class="fas fa-phone-square-alt"> 8133860749</i><br> 
-            </ul> 
-          <button class="btn btn-warning btn-block">Rules</button>   
-          </div>         
-        </div>
-      </div>     
+            <div class="">
+                <button type="button"  class="btn btn-warning btn-block" id="mBt2">Rules</button>
+                
+                <!-- The Modal -->
+                <div id="myModal_four" class="modal_four">
+                  <!-- Modal content -->
+                  <div class="modalfour-content">
+                  <span class="close3">&times;</span>
+                    <h3 style="color: wheat;">COMPONENTS:</h3>
+                      <ul>
+                        <li>IC 555, TRANSISTOR, RESISTOR, CAPACITOR, COUNTER IC, 9V Battery, LED etc.</li>
+                        </ul>
+                        <h3 style="color: wheat;">General Rules:</h3>
+                      <ul>
+                        <li>Microcontroller, microprocessor based models will not be accepted.</li>
+                         <li>Model should be made by participant itself</li>
+                           <li>Participants should also bring circuit diagram of their model & should be able to explain it to the judge.</li>
+                        </ul>
+                        <h3 style="color: wheat;">Coordinators:</h3>
+                        <ul>
+                           <li>Rajiv Kr Brahma</li>
+                           <i class="fas fa-phone-square-alt"> 7086276353</i><br> 
+                           <i class="fas fa-envelope-open-text"> reyzinbrahma1997@gmail.com</i>              
+                           <li>Biswajit Kr Singh </li> 
+                           <i class="fas fa-phone-square-alt"> 8486157338</i><br> 
+                           <li>Bhargav Nath </li> 
+                           <i class="fas fa-phone-square-alt"> 8133860749</i><br> 
+   
+                       </ul>                      
+                     </div>								
+                 </div>
+              </div>  
+            </div>
+            
+          </div>
+        </div>    
       <!-- <div class="swiper-slide">
         <div class="card">
         <img src="img/techno/city.jpg" class="card-img-top" alt="...">
@@ -337,7 +403,7 @@
 
   
 
-
+    <script src="js/onclick.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
