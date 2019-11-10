@@ -1,6 +1,8 @@
 body{
   background-image: url("../img/tech.jpg");
   width: 100%; 
+  height: 900px;
+  font-family: 'Saira Stencil One', cursive;
   
 } 
  .swiper-container {
